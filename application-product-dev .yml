@@ -1,0 +1,10 @@
+server:
+  port: 3100
+spring:
+  application:
+    name: product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///xinggou-product
+    username: root
+    password: PANYIFAN12
