@@ -7,8 +7,8 @@ zuul:
   routes:
     myUser.serviceId: plat-service #这是调用满足条件的服务名，注意要小写
     myUser.path: /user/** #这是所有路径前的通配
-    myUser.serviceId: product-service #这是调用满足条件的服务名，注意要小写
-    myUser.path: /product/** #这是所有路径前的通配  
+    product.serviceId: product-service #这是调用满足条件的服务名，注意要小写
+    product.path: /product/** #这是所有路径前的通配  
   ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
   prefix: "/services" #这是所有路径的前缀
   #访问地址如下：http://localhost:9527/services/user/provider/user/3
